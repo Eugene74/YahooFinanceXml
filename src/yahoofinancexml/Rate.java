@@ -9,7 +9,7 @@ class Rate {
     @XmlAttribute   private String id;
 
     @XmlElement
-    private String Name;//code
+    private String Name;//code1
     @XmlElement
     private double Rate;
     @XmlElement
