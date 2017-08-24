@@ -5,11 +5,11 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
-public class Rate {
+class Rate {
     @XmlAttribute   private String id;
 
     @XmlElement
-    private String Name;
+    private String Name;//code
     @XmlElement
     private double Rate;
     @XmlElement
